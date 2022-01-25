@@ -95,6 +95,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .content>h2{
@@ -158,14 +159,29 @@ body{
 
 img{
    
-    margin-left: 85rem;
-    margin-top: -25rem;
+    margin-left: 110rem;
+    margin-top: -40rem;
     width: 40rem;
     height: 40rem;
     width: -34rem;
+    
 }
 
 #btn-shopping-cart{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.nav-link:hover{
+    color: #222f3e;
+    letter-spacing: 0.2rem;
+}
+
+.round{
+    background-color:#ffd32a;
+    height: 40rem;
+    width: 40rem;
+    margin-left: 117rem;
+    margin-top: -20rem;
+    border-radius: 70rem;
 }
