@@ -16,116 +16,77 @@ body{
     overflow-x: hidden;
 }
 
+
 #header{
-    display: flex;
+    background-color: #333;
+    width: 100vw;
+    height: 8vh;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2rem;
+}
+.col{
+    height: 8vh;
+    width: 100%;
+}
+
+#logo{
     align-items: center;
     justify-content: space-between;
-    padding:1.5rem 2.5rem;
-    color: #fff;
-    
- 
-}
-.fa-bars{
-    font-size: 3rem;
-    z-index: 10000;
-    cursor: pointer;
-
-    
-}
-
-#home{
-    min-height: 100vh;
-    width: 100vw;
-    background: #333;
-}
-
-.logo{
-    color:#fff;
-    font-size: 2rem;
+    font-size: x-large;
+    width:280px;
+    height: 8vh;
     display: flex;
+    color: seashell;
 }
 
-i{
-    padding: 0.5rem;
+.header-logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
 }
 
-hl{
-    display:inline;
-
-
+#header-item{
+ text-align: right;
+ padding-top: 2rem;
+ padding-right: 4rem;
+ justify-content: space-between;
 }
 
-.fa-shopping-cart{
-    font-size: 2rem;
-    cursor: pointer;
-
-}
-
-.serch-container{
-    display: inline;
-    position: relative;
+#cart{
+  margin-left: 6rem;
+  color: red;
+  font-size: x-large;
 }
 
 #search{
-    position: absolute;
-    top: -1.5rem;
-    right: 8rem;
     height: 3.5rem;
     width: 3.5rem;
-    font-size: 1.5rem;
-    padding: 0 1rem;
-    border: none;
-    outline: none;
     border-radius: 5rem;
+    border: none;
+    border-style: none;
+    font-size: 15px;
+    padding: 12px;
     color: #fff;
- 
-}
 
-.left{
-    display:flex;
-    position: relative;
+   
+
 }
 
 #search:hover,#search:focus{
-  width: 25rem;
-  color: #333;
-}
-
-.fa-search{
-    z-index: 1;
-    position: absolute;
-    top:-.7rem;
-    right: 9rem;
-    font-size: 2rem;
-    cursor: pointer;
-     
-    color: #333;
-
-    
-}
-
-.fa-search:hover ~ #search{
     width: 25rem;
     color: #333;
 }
+#search-icon{
+  font-size: x-large;
+  margin-left: -3.3rem;
 
-.navbar{
-    position: fixed;
-    top:0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background:rgba(0, 0, 0, 9);
-    padding: 0;
 }
 
-ul{
-    height: 100%;
-    width:35rem;
-    background: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    list-style: none;
-}
+
+
