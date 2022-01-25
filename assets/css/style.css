@@ -18,7 +18,7 @@ body{
 
 
 #header{
-    background-color: #333;
+    background-color: #6a89cc;
     width: 100vw;
     height: 8vh;
 }
@@ -60,14 +60,15 @@ body{
 
 #cart{
   margin-left: 6rem;
-  color: red;
+  color: #ecf0f1;
   font-size: x-large;
+  cursor: pointer;
 }
 
 #search{
     height: 3.5rem;
     width: 3.5rem;
-    border-radius: 5rem;
+    border-radius: 3rem;
     border: none;
     border-style: none;
     font-size: 15px;
@@ -83,10 +84,88 @@ body{
     color: #333;
 }
 #search-icon{
-  font-size: x-large;
-  margin-left: -3.3rem;
+  font-size: 19px;
+  margin-left: -3.1rem;
 
+}
+
+.slide{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content>h2{
+    font-size: 4rem;
+    color: #fff;
+
+    padding-top: 10rem;
+    padding-left: 10rem;
+
+    
+}
+
+.content>p{
+    font-size: 1.7rem;
+    color: #fff;
+    padding-top: 1rem;
+    padding-left: 10rem;
 }
 
 
 
+
+
+.fa-star{
+    color: gold;
+    font-size: 1.5rem;
+    padding-left: 0.2rem;
+    
+}
+.fa-star-half-alt{
+    color: gold;
+    font-size: 1.5rem;
+    padding-left: 0.4rem;
+}
+.starts{
+
+  padding-left: 9.9rem;
+  padding-top: 1rem;
+}
+
+.price{
+  
+    padding-left: 10rem;
+    padding-top: 1rem;
+    font-size: 25px;
+    color: lightcyan;
+}
+
+.button{
+    background-color: #e55039;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-size: 25px;
+    color: lavender;
+    border-radius: 2.5rem;
+    height: 5.6rem;
+    padding: 1rem;
+    border: none;
+   
+}
+
+img{
+   
+    margin-left: 85rem;
+    margin-top: -25rem;
+    width: 40rem;
+    height: 40rem;
+    width: -34rem;
+}
+
+#btn-shopping-cart{
+    padding-left: 10px;
+    padding-right: 10px;
+}
