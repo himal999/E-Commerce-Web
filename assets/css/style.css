@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    font-family: 'Exo 2',sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 2.5rem;
+    color: #fff;
+    
+ 
+}
+.fa-bars{
+    font-size: 3rem;
+    z-index: 10000;
+    cursor: pointer;
+
+    
+}
+
+#home{
+    min-height: 100vh;
+    width: 100vw;
+    background: #333;
+}
+
+.logo{
+    color:#fff;
+    font-size: 2rem;
+    display: flex;
+}
+
+i{
+    padding: 0.5rem;
+}
+
+hl{
+    display:inline;
+
+
+}
+
+.fa-shopping-cart{
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+.serch-container{
+    display: inline;
+    position: relative;
+}
+
+#search{
+    position: absolute;
+    top: -1.5rem;
+    right: 8rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+    color: #fff;
+ 
+}
+
+.left{
+    display:flex;
+    position: relative;
+}
+
+#search:hover,#search:focus{
+  width: 25rem;
+  color: #333;
+}
+
+.fa-search{
+    z-index: 1;
+    position: absolute;
+    top:-.7rem;
+    right: 9rem;
+    font-size: 2rem;
+    cursor: pointer;
+     
+    color: #333;
+
+    
+}
+
+.fa-search:hover ~ #search{
+    width: 25rem;
+    color: #333;
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background:rgba(0, 0, 0, 9);
+    padding: 0;
+}
+
+ul{
+    height: 100%;
+    width:35rem;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    list-style: none;
+}
