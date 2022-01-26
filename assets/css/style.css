@@ -212,3 +212,43 @@ img{
 #btn-shopping-cart:hover{
     transform: rotate(20deg);
 }
+
+/*end slide and header css*/
+
+/*start new-arrivals css*/
+
+.new-arrivals{
+    height: 40vh;
+    margin: 12px;
+    margin-bottom: 30rem;
+    box-shadow:  0 20px 10px -5px gray; 
+   
+    
+}
+.new-arrivals-box{
+  
+    padding-top: 5rem;
+    height: 40vh;
+    
+}
+
+#arrivals-header{
+    text-align: center;
+    font-size: 4rem;
+    margin-top:-15.6rem;
+    background-color: #fff;
+    width: 27rem;
+    margin-left: 58rem;
+  
+}
+
+.inner-box{
+  
+    margin-left: 8rem;
+   
+    margin-right: 8rem;
+   
+    padding: 13rem;
+    
+    border: 3px solid gray;
+}
