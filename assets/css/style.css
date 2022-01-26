@@ -63,7 +63,13 @@ body{
   color: #ecf0f1;
   font-size: x-large;
   cursor: pointer;
+ 
 }
+#cart:hover{
+    transform: rotateX(25deg);
+
+    font-size: xx-large;
+  }
 
 #search{
     height: 3.5rem;
@@ -98,14 +104,16 @@ body{
     
 }
 
+.content{
+    background-color: #333;
+    height: 65rem;
+}
+
 .content>h2{
     font-size: 4rem;
     color: #fff;
-
     padding-top: 10rem;
     padding-left: 10rem;
-
-    
 }
 
 .content>p{
@@ -114,11 +122,6 @@ body{
     padding-top: 1rem;
     padding-left: 10rem;
 }
-
-
-
-
-
 .fa-star{
     color: gold;
     font-size: 1.5rem;
@@ -147,23 +150,26 @@ body{
 .button{
     background-color: #e55039;
     margin-left: 10rem;
-    margin-top: 1rem;
+    margin-top: 4rem;
     font-size: 25px;
     color: lavender;
     border-radius: 2.5rem;
     height: 5.6rem;
     padding: 1rem;
+    padding-left: 2rem;
     border: none;
+    justify-content: center
+    
    
 }
 
 img{
    
-    margin-left: 110rem;
+    margin-left: 124rem;
     margin-top: -40rem;
     width: 40rem;
     height: 40rem;
-    width: -34rem;
+  
     
 }
 
@@ -181,7 +187,28 @@ img{
     background-color:#ffd32a;
     height: 40rem;
     width: 40rem;
-    margin-left: 117rem;
-    margin-top: -20rem;
+    margin-left: 130rem;
+    margin-top: -29rem;
     border-radius: 70rem;
+   
+}
+
+.round:hover,img:hover{
+    height: 41rem;
+    width: 41rem;
+}
+.round:hover{
+    height: 40rem;
+    width: 40rem;
+}
+
+
+.button:hover,#btn-shopping-cart:hover{
+    background-color: #333;
+    color: #e55039;
+   
+}
+
+#btn-shopping-cart:hover{
+    transform: rotate(20deg);
 }
