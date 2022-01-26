@@ -80,9 +80,39 @@ body{
     font-size: 15px;
     padding: 12px;
     color: #fff;
+}
 
+.order-btn{
+    border-color: springgreen;
+    border-radius: 3rem;
+    font-size: x-large;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #333;
+    color: #fff;
+    margin-left: 10rem;
+}
+.button{
+    background-color: #e55039;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    font-size: x-large;
+    color: lavender;
+    border-radius: 2.5rem;
+    
+    padding: 1rem;
+    padding-left: 2rem;
+    border: none;
+    justify-content: center
+    
    
-
+}
+.order-btn:hover{
+    background-color: #fff;
+    border: none;
+    color: #333;
 }
 
 #search:hover,#search:focus{
@@ -147,21 +177,7 @@ body{
     color: lightcyan;
 }
 
-.button{
-    background-color: #e55039;
-    margin-left: 10rem;
-    margin-top: 4rem;
-    font-size: 25px;
-    color: lavender;
-    border-radius: 2.5rem;
-    height: 5.6rem;
-    padding: 1rem;
-    padding-left: 2rem;
-    border: none;
-    justify-content: center
-    
-   
-}
+
 
 img{
    
@@ -203,10 +219,15 @@ img{
 }
 
 
-.button:hover,#btn-shopping-cart:hover{
+.button:hover{
     background-color: #333;
-    color: #e55039;
    
+    border: 2px solid tomato;
+   
+}
+
+,#btn-shopping-cart:hover{
+    transform: rotate(20rdg);
 }
 
 #btn-shopping-cart:hover{
