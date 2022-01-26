@@ -221,12 +221,12 @@ img{
 
 .button:hover{
     background-color: #333;
-   
+    color: tomato;
     border: 2px solid tomato;
    
 }
 
-,#btn-shopping-cart:hover{
+#btn-shopping-cart:hover{
     transform: rotate(20rdg);
 }
 
