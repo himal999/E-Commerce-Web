@@ -218,7 +218,7 @@ img{
 /*start new-arrivals css*/
 
 .new-arrivals{
-    height: 40vh;
+    height: 70vh;
     margin: 12px;
     margin-bottom: 30rem;
     box-shadow:  0 20px 10px -5px gray; 
@@ -228,7 +228,7 @@ img{
 .new-arrivals-box{
   
     padding-top: 5rem;
-    height: 40vh;
+    height: 70vh;
     
 }
 
@@ -238,17 +238,82 @@ img{
     margin-top:-15.6rem;
     background-color: #fff;
     width: 27rem;
-    margin-left: 58rem;
+    margin-left: 70rem;
   
 }
 
 .inner-box{
-  
-    margin-left: 8rem;
-   
-    margin-right: 8rem;
-   
-    padding: 13rem;
-    
-    border: 3px solid gray;
+   margin-left: 8rem;
+   margin-right: 8rem;
+   height: 50rem;
+   padding-top: 13rem;
+   border: 3px solid gray;
 }
+
+.new-arrivals-card{
+    margin: 1rem;
+    height: 43.5rem;
+    border: 1.9px solid #333;
+    width: 29rem;
+    
+    
+}
+#img-cart1{
+    height: 24vh;
+    width: 8vw;
+    margin-left: 6.5rem;
+    margin-top: 2rem;
+}
+
+.cart-view{
+    background-color: rgba(0,0, 0, 0.8) ;
+    padding: 1rem;
+}
+
+#cart-header{
+    color: #fff;
+    padding-left: 3.5rem;
+    font-size: 1.9rem;
+}
+
+.cart-btn{
+    margin-top: 1rem;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    margin-left:7rem;
+}
+
+#cart-start{
+    font-size: 12px;
+    
+}
+
+.cart-starts{
+    margin-top: -2.8rem;
+    margin-left: 7rem;
+}  
+
+.cart-detail{
+    color: #fff;
+    font-size: 15px;
+    padding: 0.7rem;
+  
+   
+}
+
+.cart-detail-value{
+   font-size: 16px;
+   margin-top: -3.1rem;
+   margin-left: 7rem;
+   color:#34ace0;
+
+   
+}
+
